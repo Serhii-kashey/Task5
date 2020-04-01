@@ -1,0 +1,58 @@
+##Task5
+
+
+
+##Task4
+##a=5
+##b=17
+##print("+"*b)
+##print("++++++++++++++")
+##print("+------------+")
+##print("+------------+")
+##print("+------------+")
+##print("+------------+")
+##print("++++++++++++++")
+
+
+##Task3
+##s=1
+##while s!=10:
+##    t=0
+##    for i in range(10):
+##       print("%2d x %2d = %2d" %(s,t,s*t))
+##       t+=1
+##    print(" ")
+##    s+=1
+
+##Task2
+##s=input("Please input 10 natural numbers using space's as separate symbol: ")
+##k=s.split(" ")
+##t=0
+##for i in k:
+##    s=int(i)
+##    if s%5==0:
+##        t+=1
+##print("Count of multiple numbers on 5: %d" %(t))
+        
+
+##Task1
+from random import randint
+r = randint(0,100)
+s = 0
+while s<10:
+    k = int(input(' Enter the number: '))
+    if k>r:
+        s+=1
+        print(' Your number is bigger, try one more time ')
+        continue
+    elif k<r:
+        s+=1
+        print(' Your number is smaller, try one more time ')
+        continue
+    else:
+        print(' Alright, right number ')
+        break
+else:
+    print(' Random number is %d ' %(r))
+        
+    
